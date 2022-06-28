@@ -20,9 +20,4 @@ public class Treballador {
         return horesTreballades * preuPerHora;
 
     }
-
-    @Deprecated
-    public void printNom() {
-        System.out.println(nom);
-    }
 }
