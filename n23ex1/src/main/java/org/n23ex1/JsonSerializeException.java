@@ -1,4 +1,4 @@
-package org.n2ex1;
+package org.n23ex1;
 
 public class JsonSerializeException extends Exception {
 

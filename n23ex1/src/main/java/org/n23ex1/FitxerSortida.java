@@ -1,4 +1,4 @@
-package org.n2ex1;
+package org.n23ex1;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,5 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface JsonSerializable {
+public @interface FitxerSortida {
+    String path() default "C:\\Users\\formacio\\IdeaProjects\\Tasca-S1.07\\objecte1.json";
 }

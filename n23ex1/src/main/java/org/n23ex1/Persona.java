@@ -1,13 +1,12 @@
-package org.n2ex1;
+package org.n23ex1;
 
 @JsonSerializable
 public class Persona {
-//TODO elimina jsonelement
-    @JsonElement(value = "a")
+    @JsonElement
     private String nom;
-    @JsonElement()
+    @JsonElement
     private String cognom;
-    @JsonGenericElement
+    @JsonElement
     private int edat;
 
     public Persona() {
