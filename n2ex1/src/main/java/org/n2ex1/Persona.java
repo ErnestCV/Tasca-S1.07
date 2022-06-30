@@ -2,8 +2,8 @@ package org.n2ex1;
 
 @JsonSerializable
 public class Persona {
-
-    @JsonElement()
+//TODO elimina jsonelement
+    @JsonElement(value = "a")
     private String nom;
     @JsonElement()
     private String cognom;

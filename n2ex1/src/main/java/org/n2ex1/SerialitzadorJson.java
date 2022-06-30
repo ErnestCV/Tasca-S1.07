@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 import static java.util.Objects.requireNonNull;
 
+//TODO anotar amb file: Myannotation, File file() default el path que vull
 public class SerialitzadorJson {
 
     //https://www.baeldung.com/java-custom-annotation
